@@ -1,0 +1,19 @@
+/* Goosfraba */
+
+.icon_kaboom {
+ background-image: url(../img/kaboom.png);
+ background-size: 70%;
+ background-position: 55% 45% !important; 
+ background-color:  #0f70bd !important;
+ border:none !important;
+ opacity: 1.0 !important;
+}
+
+body #zarafa-mainmenu.zarafa-maintabbar > .x-toolbar-ct .x-btn .x-btn-text.x-btn-text.icon_kaboom {
+ font-size: 0px !important;
+ box-shadow: none !important;
+ border: none !important;
+ height: 37px;
+}
+
+

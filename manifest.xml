@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE plugin SYSTEM "manifest.dtd">
+<plugin version="2">
+	<info>
+		<version>1.0</version>
+		<name>goosfraba</name>
+		<title>Goosfraba</title>
+		<author>Martijn Alberts</author>
+		<description>Goosfraba. Anger management.</description>
+	</info>
+	<config>
+		<configfile>config.php</configfile>
+	</config>
+	<components>
+		<component>
+			<files>
+				<server>
+					<serverfile>php/plugin.goosfraba.php</serverfile>
+				</server>
+				<client>
+					<clientfile load="release">js/goosfraba.js</clientfile>
+					<clientfile load="debug">js/goosfraba.js</clientfile>
+					<clientfile load="source">js/goosfraba.js</clientfile>
+				</client>
+				<resources>
+					<resourcefile load="release">css/goosfraba.css</resourcefile>
+				</resources>
+			</files>
+		</component>
+	</components>
+</plugin>
