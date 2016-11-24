@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Don't click me
+ * Goosfraba
  */
-class Pluginidontclickme extends Plugin {
+class Plugingoosfraba extends Plugin {
 
 	/**
 	 * Constructor
 	 */
-	function Plugindontclickme() {}
+	function Plugingoosfraba() {}
 
 	/**
 	 * Function initializes the Plugin and registers all hooks
@@ -44,8 +44,8 @@ class Pluginidontclickme extends Plugin {
 			'zarafa' => Array(
 				'v1' => Array(
 					'plugins' => Array(
-						'dontclickme' => Array(
-							'enable' => PLUGIN_DONTCLICKME_USER_DEFAULT_ENABLE
+						'goosfraba' => Array(
+							'enable' => PLUGIN_GOOSFRABA_USER_DEFAULT_ENABLE
 						)
 					)
 				)
