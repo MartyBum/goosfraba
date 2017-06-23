@@ -24,6 +24,8 @@
 				</client>
 				<resources>
 					<resourcefile load="release">css/goosfraba.css</resourcefile>
+					<resourcefile load="debug">css/goosfraba.css</resourcefile>
+					<resourcefile load="source">css/goosfraba.css</resourcefile>
 				</resources>
 			</files>
 		</component>
